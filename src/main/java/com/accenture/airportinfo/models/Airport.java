@@ -1,11 +1,13 @@
 package com.accenture.airportinfo.models;
 
 import com.opencsv.bean.CsvBindByName;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
 
 @Getter
 @ToString
+@EqualsAndHashCode
 public class Airport {
     @CsvBindByName
     private int id;

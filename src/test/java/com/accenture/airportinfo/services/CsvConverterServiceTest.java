@@ -1,9 +1,7 @@
 package com.accenture.airportinfo.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import com.accenture.airportinfo.exceptions.CsvFileNotFoundException;
 import com.opencsv.bean.CsvToBeanBuilder;
 import org.junit.jupiter.api.Test;
 
